@@ -1,0 +1,174 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background: radial-gradient(rgba(0, 0, 0, 0.74), rgba(0, 0, 0, 0.63)), url(../elementos/fondo.jpg);
+  background-size: cover;
+  width: 100vw;
+  height: 113vh;
+  background-repeat: no-repeat;
+}
+
+body .nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-items: end;
+  width: 95vw;
+}
+
+body .nav a {
+  color: azure;
+}
+
+body main #carouselExampleControls {
+  height: 97vh;
+  width: 99vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body main #carouselExampleControls div {
+  width: 50vw;
+}
+
+body main #carouselExampleControls div div div.cajaFoto {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 10px;
+}
+
+body main #carouselExampleControls div div div.cajaFoto svg.people {
+  width: 200px;
+}
+
+body main #carouselExampleControls div div div.cajaFoto svg.people path {
+  fill: whitesmoke;
+}
+
+body main #carouselExampleControls div div .iconos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+body main #carouselExampleControls div div .iconos svg.icon {
+  width: 100px;
+  padding-top: 10px;
+}
+
+body main #carouselExampleControls div div .iconos svg.icon path {
+  fill: whitesmoke;
+}
+
+body main #carouselExampleControls div div .iconos svg.icon2 {
+  width: 120px;
+  padding-top: 10px;
+}
+
+body main #carouselExampleControls div div .iconos svg.icon2 path {
+  fill: whitesmoke;
+}
+
+body main section {
+  background: radial-gradient(white, white);
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body main section .estudio h3 {
+  font-size: 300%;
+  color: #c017c0;
+}
+
+body main section .estudio div {
+  opacity: 1.5;
+}
+
+body main section .estudio div div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body main section .estudio div div .icono {
+  width: 150px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  padding-top: 15px;
+}
+
+body main section .estudio div div .icono path {
+  fill: rgba(63, 54, 63, 0.658);
+}
+
+body main section .estudio div div .boots {
+  width: 165px;
+}
+
+body main section .estudio div div .js {
+  width: 130px;
+}
+
+body main section .estudio div div .front {
+  width: 180px;
+  padding-top: 28px;
+}
+
+body main section .estudio div div div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body main section .estudio div div div .btn {
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+body main h1, body main h2, body main h3 {
+  font-family: 'EB Garamond', serif;
+  text-align: center;
+  color: #ffee00;
+}
+/*# sourceMappingURL=index.css.map */

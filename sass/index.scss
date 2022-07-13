@@ -1,0 +1,119 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background: radial-gradient(rgba(0, 0, 0, 0.74), rgba(0, 0, 0, 0.63)), url(../elementos/fondo.jpg);
+    background-size:cover;
+    width: 100vw;
+    height: 113vh;
+    background-repeat: no-repeat;
+
+.nav{
+    display: flex;
+    justify-items:end;
+    width: 95vw;
+    a{
+        color: azure;
+    }
+
+}
+main{
+#carouselExampleControls{
+    height: 97vh;
+    width: 99vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    div{
+        width: 50vw;
+            div{
+                div.cajaFoto{
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                padding-top: 10px;
+                    svg.people{
+                        width: 200px;
+                        path{
+                            fill: whitesmoke
+                        }
+                    }
+                }
+                .iconos{
+                    display: flex;
+                    justify-content: space-around;
+                    svg.icon{
+                        width: 100px;
+                        padding-top: 10px;
+                        path{
+                            fill:whitesmoke;
+                        }
+                    }
+                    svg.icon2{
+                        width: 120px;
+                        padding-top: 10px;
+                        path{
+                            fill:whitesmoke;
+                        }
+                    }
+                }
+        }
+    }
+}
+section{
+    background:radial-gradient(white, white);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    .estudio{
+          h3{
+            font-size: 300%;
+            color: rgb(192, 23, 192);
+            }
+        div{
+            opacity: 1.5;
+            div{
+                display: flex;
+                flex-direction: column;
+                    .icono{
+                        width: 150px;
+                        align-self: center;
+                        padding-top: 15px;
+                        path{
+                            fill: rgba(63, 54, 63, 0.658);
+
+                        }
+
+                    }
+                    .boots{
+                        width: 165px;
+                    }
+                    .js{
+                        width: 130px;
+                    }
+                    .front{
+                        width: 180px;
+                        padding-top: 28px;
+                    }
+                    div{
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+                        .btn{
+                            align-items: flex-end;
+                        }
+                    }
+            }
+          
+        }
+    }
+}
+h1, h2, h3{
+    font-family: 'EB Garamond', serif;
+    text-align: center;
+    color: rgb(255, 238, 0);
+}
+}
+}
