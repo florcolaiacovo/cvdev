@@ -44,16 +44,16 @@
     
     <ul class="nav justify-content-end">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Active</a>
+          <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#portfolio">Portfolio</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#educacion">Educación</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Porfolio</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled">Contacto</a>
+        <li class="nav-item contacto">
+          <a class="nav-link" href="#contacto">Contacto</a>
         </li>
       </ul>
 
@@ -67,7 +67,7 @@
             <div class="cajaFoto">
               <img src="./elementos/fotoCvSinFondo.png" class="foto-cv d-block w-50" alt="...">
             </div>
-            </div>
+          </div>
 
           <!----aca empieza un item-->
           <div class="carousel-item">
@@ -97,6 +97,64 @@
           <span class="visually-hidden">Next</span>
         </button>
       </div>
+
+<!----------potfolio-->
+<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div id="portfolio" class="carousel-inner">
+    <div class="carousel-item active">
+      <section>
+      <h2 class="h2_portfolio">PORTFOLIO</h2>
+        <h3 class="h3_portfolio">La instrumental Fitness</h3>
+     <p>Aplicación web e-commerce de elementos fitness.</p>
+     <p>Desarrollada con firebase, js, react js y diferentes librerías.</p>
+      <div class="cajaFoto">
+        <video class="fitness" controls autoplay loop src="./elementos/instru.mp4"></video>
+      </div>
+      </section>
+
+    </div>
+    <!-----aca empieza un item del portfolio-->
+    <div class="carousel-item">
+      <section>
+    <h2 class="h2_portfolio">PORTFOLIO</h2>
+      <h3 class="h3_portfolio">Muestra de voces</h3>
+    <p>Sitio web, CV virtual de locución.</p>
+    <p>Desarrollada con bootstrap, font Awesome, animaciones, html y css.</p>
+     <div class="cajaVideos">
+      <video class="videoEscritorio" controls autoplay loop src="./elementos/locuescritorio.mp4"></video>
+   </div>
+      </section>
+    </div>
+    <div class="carousel-item">
+      <section class="celular">
+        <div class="texto">
+        <h2 class="h2_portfolio">PORTFOLIO</h2>
+          <h3 class="h3_portfolio">Muestra de voces</h3>
+        <p>Sitio web, CV virtual de locución.</p>
+        <p>Desarrollada con bootstrap, font Awesome, animaciones, html y css.</p>
+        </div>
+        <div class=" iconos">
+          <video class="videoCelu" controls autoplay loop src="./elementos/locucelu.mp4"></video>
+        </div>
+      </section>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+
 <!--------grid certificados-->
 <section id="educacion">
     <div class="container estudio">
@@ -146,6 +204,22 @@
       
       
 </main>
+<footer id="contacto">
+<div class="info">
+  <a href="https://github.com/florcolaiacovo">
+    Github
+  </a>
+  <a href="https://www.linkedin.com/in/florencia-colaiacovo/">
+    LinkedIn
+  </a>
+  <a href="https://walink.co/142092">
+    +54 9 11 3522 5845
+  </a>
+</div>
+<div class="texto">
+  <p>Me encantaría formar parte de tu proyecto y aportar mis conocimientos y experiencia para lograr juntos superarnos! ❤</p>
+</div>
+</footer>
 <!--------toastify-->
 <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
 </body>

@@ -10,21 +10,34 @@ body{
     background-repeat: no-repeat;
 
 .nav{
+    position: fixed;
+    z-index: 1;
     display: flex;
     justify-items:end;
-    width: 95vw;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.336);
+    top:0px;
+    .contacto{
+        padding-right: 5vh;
+    }
     a{
         color: azure;
+        
+    }
+    a:hover{
+        color: rgb(190, 8, 190);
     }
 
 }
 main{
+    margin-top: 10vh;
 #carouselExampleControls{
-    height: 97vh;
+    height: 90vh;
     width: 99vw;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 20vh;
     div{
         width: 50vw;
             div{
@@ -62,6 +75,72 @@ main{
         }
     }
 }
+#carouselExampleIndicators{
+    height: 95vh;
+    width: 99vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20vh;
+    .carousel-control-next{
+        top: 100px !important;
+    }
+    div{
+        margin-top: 10vh;
+        width: 50vw;
+          
+            div{
+                .celular{
+                    display: flex;
+                    flex-direction: row;
+                    height:75vh;
+                    div.texto{
+                        display: flex;
+                        flex-direction: column;
+                        height: 75vh;
+                        justify-content: flex-start;
+                        margin-right: 5vh;
+                        .h2_portfolio{
+                            color: rgb(190, 8, 190);
+                        }
+                    }
+                }
+                section{
+                height: 80vh;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                
+                .h2_portfolio{
+                    color: rgb(190, 8, 190);
+                    margin-top: 1vh;
+                    font-size: 350%;
+                }
+                .h3_portfolio{
+                    color: rgb(190, 8, 190);
+                    margin-bottom: 5vh;
+                    font-size: 250%;
+                }
+                p{
+                    font-size: 125%;
+                    text-align: center;
+                }
+                div{
+                    display: flex;
+                    justify-content: center;
+                    align-content: flex-start;
+                    .fitness, .videoEscritorio{
+                        width: 40vw;
+                    }
+                    .videoCelu{
+                        height: 75vh;
+                    }
+                }
+            }
+        }
+    }
+}
+
 section{
     background:radial-gradient(white, white);
     height: 100vh;
@@ -110,10 +189,45 @@ section{
         }
     }
 }
+
 h1, h2, h3{
     font-family: 'EB Garamond', serif;
     text-align: center;
     color: rgb(255, 238, 0);
 }
+
+}
+footer{
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.904);
+    height: 30vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    div.texto{
+        display: flex;
+        align-content: flex-start;
+        flex-direction: column;
+        justify-content: flex-start;
+        padding-top: 20px;
+        p{
+            width: 40vw;
+            color: rgb(170, 170, 170);
+            padding-left: 25px;
+        }
+    }
+    div.info{display: flex;
+        flex-direction: column;
+        padding-top: 20px;
+        a{  
+            margin-left: 50px;
+            font-size: 150%;
+            color: whitesmoke;
+            text-decoration: none;
+        }
+        a:hover{
+            color: rgb(255, 238, 0);
+        }
+    }
 }
 }
