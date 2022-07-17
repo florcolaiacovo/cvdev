@@ -1,354 +1,572 @@
+@media all and (max-width: 480px) {
+  body {
+    background: radial-gradient(rgba(0, 0, 0, 0.74), rgba(0, 0, 0, 0.63)), url(../elementos/fondo.jpg);
+    background-size: cover;
+    width: 100vw;
+    height: 113vh;
+    background-repeat: no-repeat;
+  }
+  body .nav {
+    position: fixed;
+    z-index: 1;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-items: end;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.336);
+    top: 0px;
+  }
+  body .nav .contacto {
+    padding-right: 5vh;
+  }
+  body .nav a {
+    color: azure;
+  }
+  body .nav a:hover {
+    color: #be08be;
+  }
+  body main {
+    margin-top: 10vh;
+  }
+  body main #carouselExampleControls {
+    height: 90vh;
+    width: 99vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-bottom: 20vh;
+  }
+  body main #carouselExampleControls div {
+    width: 70vw;
+  }
+  body main #carouselExampleControls div div div.cajaFoto {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-top: 10px;
+  }
+  body main #carouselExampleControls div div div.cajaFoto .foto-cv {
+    width: 60vw;
+  }
+  body main #carouselExampleControls div div div.cajaFoto svg.people {
+    width: 30%;
+  }
+  body main #carouselExampleControls div div div.cajaFoto svg.people path {
+    fill: whitesmoke;
+  }
+  body main #carouselExampleControls div div .iconos {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  body main #carouselExampleControls div div .iconos svg.icon {
+    width: 20%;
+    padding-top: 10px;
+  }
+  body main #carouselExampleControls div div .iconos svg.icon path {
+    fill: whitesmoke;
+  }
+  body main #carouselExampleControls div div .iconos svg.icon2 {
+    width: 25%;
+    padding-top: 10px;
+  }
+  body main #carouselExampleControls div div .iconos svg.icon2 path {
+    fill: whitesmoke;
+  }
+  body main #carouselExampleIndicators {
+    height: 95vh;
+    width: 99vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-bottom: 20vh;
+  }
+  body main #carouselExampleIndicators .carousel-control-next {
+    top: 100px !important;
+  }
+  body main #carouselExampleIndicators div {
+    width: 70vw;
+  }
+  body main #carouselExampleIndicators div div .celular {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    height: 75vh;
+  }
+  body main #carouselExampleIndicators div div .celular div.texto {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 75vh;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    margin-right: 5vh;
+  }
+  body main #carouselExampleIndicators div div .celular div.texto .h2_portfolio {
+    color: #be08be;
+  }
+  body main #carouselExampleIndicators div div section {
+    height: 70vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-top: 10vh;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  body main #carouselExampleIndicators div div section .h2_portfolio {
+    color: #be08be;
+    margin-top: 1vh;
+    font-size: 200%;
+  }
+  body main #carouselExampleIndicators div div section .h3_portfolio {
+    color: #be08be;
+    margin-bottom: 0.5vh;
+    font-size: 150%;
+  }
+  body main #carouselExampleIndicators div div section p {
+    font-size: 100%;
+    text-align: center;
+  }
+  body main #carouselExampleIndicators div div section div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-line-pack: start;
+        align-content: flex-start;
+  }
+  body main #carouselExampleIndicators div div section div .fitness, body main #carouselExampleIndicators div div section div .videoEscritorio {
+    width: 60vw;
+  }
+  body main #carouselExampleIndicators div div section div .videoCelu {
+    height: 75vh;
+  }
+  body main #carouselExampleIndicators div div section .p-escritorio {
+    display: none;
+  }
+  body main section#educacion {
+    display: none;
+  }
+  body main h1, body main h2, body main h3 {
+    font-family: 'EB Garamond', serif;
+    text-align: center;
+    color: #ffee00;
+    font-size: 130%;
+  }
+  body footer {
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.904);
+    height: 280px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  body footer div.texto {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-line-pack: start;
+        align-content: flex-start;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    padding-top: 20px;
+  }
+  body footer div.texto p {
+    width: 95vw;
+    color: #aaaaaa;
+    padding-left: 25px;
+  }
+  body footer div.info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding-top: 20px;
+    margin-bottom: 15px;
+  }
+  body footer div.info a {
+    margin-left: 50px;
+    font-size: 150%;
+    color: whitesmoke;
+    text-decoration: none;
+    text-align: end;
+    padding-right: 20px;
+  }
+  body footer div.info a:hover {
+    color: #ffee00;
+  }
+}
+
 * {
   margin: 0px;
   padding: 0px;
 }
 
-body {
-  background: radial-gradient(rgba(0, 0, 0, 0.74), rgba(0, 0, 0, 0.63)), url(../elementos/fondo.jpg);
-  background-size: cover;
-  width: 100vw;
-  height: 113vh;
-  background-repeat: no-repeat;
-}
-
-body .nav {
-  position: fixed;
-  z-index: 1;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  justify-items: end;
-  width: 100vw;
-  background-color: rgba(0, 0, 0, 0.336);
-  top: 0px;
-}
-
-body .nav .contacto {
-  padding-right: 5vh;
-}
-
-body .nav a {
-  color: azure;
-}
-
-body .nav a:hover {
-  color: #be08be;
-}
-
-body main {
-  margin-top: 10vh;
-}
-
-body main #carouselExampleControls {
-  height: 90vh;
-  width: 99vw;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  margin-bottom: 20vh;
-}
-
-body main #carouselExampleControls div {
-  width: 50vw;
-}
-
-body main #carouselExampleControls div div div.cajaFoto {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  padding-top: 10px;
-}
-
-body main #carouselExampleControls div div div.cajaFoto svg.people {
-  width: 200px;
-}
-
-body main #carouselExampleControls div div div.cajaFoto svg.people path {
-  fill: whitesmoke;
-}
-
-body main #carouselExampleControls div div .iconos {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-}
-
-body main #carouselExampleControls div div .iconos svg.icon {
-  width: 100px;
-  padding-top: 10px;
-}
-
-body main #carouselExampleControls div div .iconos svg.icon path {
-  fill: whitesmoke;
-}
-
-body main #carouselExampleControls div div .iconos svg.icon2 {
-  width: 120px;
-  padding-top: 10px;
-}
-
-body main #carouselExampleControls div div .iconos svg.icon2 path {
-  fill: whitesmoke;
-}
-
-body main #carouselExampleIndicators {
-  height: 95vh;
-  width: 99vw;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  margin-bottom: 20vh;
-}
-
-body main #carouselExampleIndicators .carousel-control-next {
-  top: 100px !important;
-}
-
-body main #carouselExampleIndicators div {
-  margin-top: 10vh;
-  width: 50vw;
-}
-
-body main #carouselExampleIndicators div div .celular {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  height: 75vh;
-}
-
-body main #carouselExampleIndicators div div .celular div.texto {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  height: 75vh;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  margin-right: 5vh;
-}
-
-body main #carouselExampleIndicators div div .celular div.texto .h2_portfolio {
-  color: #be08be;
-}
-
-body main #carouselExampleIndicators div div section {
-  height: 80vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-}
-
-body main #carouselExampleIndicators div div section .h2_portfolio {
-  color: #be08be;
-  margin-top: 1vh;
-  font-size: 350%;
-}
-
-body main #carouselExampleIndicators div div section .h3_portfolio {
-  color: #be08be;
-  margin-bottom: 5vh;
-  font-size: 250%;
-}
-
-body main #carouselExampleIndicators div div section p {
-  font-size: 125%;
-  text-align: center;
-}
-
-body main #carouselExampleIndicators div div section div {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -ms-flex-line-pack: start;
-      align-content: flex-start;
-}
-
-body main #carouselExampleIndicators div div section div .fitness, body main #carouselExampleIndicators div div section div .videoEscritorio {
-  width: 40vw;
-}
-
-body main #carouselExampleIndicators div div section div .videoCelu {
-  height: 75vh;
-}
-
-body main section {
-  background: radial-gradient(white, white);
-  height: 100vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-body main section .estudio h3 {
-  font-size: 300%;
-  color: #c017c0;
-}
-
-body main section .estudio div {
-  opacity: 1.5;
-}
-
-body main section .estudio div div {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-}
-
-body main section .estudio div div .icono {
-  width: 150px;
-  -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
-  padding-top: 15px;
-}
-
-body main section .estudio div div .icono path {
-  fill: rgba(63, 54, 63, 0.658);
-}
-
-body main section .estudio div div .boots {
-  width: 165px;
-}
-
-body main section .estudio div div .js {
-  width: 130px;
-}
-
-body main section .estudio div div .front {
-  width: 180px;
-  padding-top: 28px;
-}
-
-body main section .estudio div div div {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-body main section .estudio div div div .btn {
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
-}
-
-body main h1, body main h2, body main h3 {
-  font-family: 'EB Garamond', serif;
-  text-align: center;
-  color: #ffee00;
-}
-
-body footer {
-  width: 100vw;
-  background-color: rgba(0, 0, 0, 0.904);
-  height: 30vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-body footer div.texto {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-line-pack: start;
-      align-content: flex-start;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  padding-top: 20px;
-}
-
-body footer div.texto p {
-  width: 40vw;
-  color: #aaaaaa;
-  padding-left: 25px;
-}
-
-body footer div.info {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  padding-top: 20px;
-}
-
-body footer div.info a {
-  margin-left: 50px;
-  font-size: 150%;
-  color: whitesmoke;
-  text-decoration: none;
-}
-
-body footer div.info a:hover {
-  color: #ffee00;
+@media (min-width: 1024px) {
+  body {
+    background: radial-gradient(rgba(0, 0, 0, 0.74), rgba(0, 0, 0, 0.63)), url(../elementos/fondo.jpg);
+    background-size: cover;
+    width: 100vw;
+    height: 113vh;
+    background-repeat: no-repeat;
+  }
+  body .nav {
+    position: fixed;
+    z-index: 1;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-items: end;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.336);
+    top: 0px;
+  }
+  body .nav .contacto {
+    padding-right: 5vh;
+  }
+  body .nav a {
+    color: azure;
+  }
+  body .nav a:hover {
+    color: #be08be;
+  }
+  body main {
+    margin-top: 10vh;
+  }
+  body main #carouselExampleControls {
+    height: 90vh;
+    width: 99vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-bottom: 20vh;
+  }
+  body main #carouselExampleControls div {
+    width: 50vw;
+  }
+  body main #carouselExampleControls div div div.cajaFoto {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-top: 10px;
+  }
+  body main #carouselExampleControls div div div.cajaFoto .foto-cv {
+    width: 50%;
+  }
+  body main #carouselExampleControls div div div.cajaFoto svg.people {
+    width: 200px;
+  }
+  body main #carouselExampleControls div div div.cajaFoto svg.people path {
+    fill: whitesmoke;
+  }
+  body main #carouselExampleControls div div .iconos {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  body main #carouselExampleControls div div .iconos svg.icon {
+    width: 100px;
+    padding-top: 10px;
+  }
+  body main #carouselExampleControls div div .iconos svg.icon path {
+    fill: whitesmoke;
+  }
+  body main #carouselExampleControls div div .iconos svg.icon2 {
+    width: 120px;
+    padding-top: 10px;
+  }
+  body main #carouselExampleControls div div .iconos svg.icon2 path {
+    fill: whitesmoke;
+  }
+  body main #carouselExampleIndicators {
+    height: 95vh;
+    width: 99vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-bottom: 20vh;
+  }
+  body main #carouselExampleIndicators .carousel-control-next {
+    top: 100px !important;
+  }
+  body main #carouselExampleIndicators div {
+    margin-top: 10vh;
+    width: 50vw;
+  }
+  body main #carouselExampleIndicators div div .celular {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    height: 75vh;
+  }
+  body main #carouselExampleIndicators div div .celular div.texto {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 75vh;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    margin-right: 5vh;
+  }
+  body main #carouselExampleIndicators div div .celular div.texto .h2_portfolio {
+    color: #be08be;
+  }
+  body main #carouselExampleIndicators div div section {
+    height: 80vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  body main #carouselExampleIndicators div div section .h2_portfolio {
+    color: #be08be;
+    margin-top: 1vh;
+    font-size: 350%;
+  }
+  body main #carouselExampleIndicators div div section .h3_portfolio {
+    color: #be08be;
+    font-size: 250%;
+  }
+  body main #carouselExampleIndicators div div section p {
+    font-size: 125%;
+    text-align: center;
+  }
+  body main #carouselExampleIndicators div div section div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-line-pack: start;
+        align-content: flex-start;
+  }
+  body main #carouselExampleIndicators div div section div .fitness, body main #carouselExampleIndicators div div section div .videoEscritorio {
+    width: 40vw;
+    -ms-flex-item-align: start;
+        align-self: flex-start;
+  }
+  body main #carouselExampleIndicators div div section div .videoCelu {
+    height: 75vh;
+  }
+  body main #carouselExampleIndicators div div section .p-celu {
+    display: none;
+  }
+  body main section {
+    background: radial-gradient(white, white);
+    height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body main section .estudio h3 {
+    font-size: 300%;
+    color: #c017c0;
+  }
+  body main section .estudio div {
+    opacity: 1.5;
+  }
+  body main section .estudio div div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  body main section .estudio div div .icono {
+    width: 150px;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    padding-top: 15px;
+  }
+  body main section .estudio div div .icono path {
+    fill: rgba(63, 54, 63, 0.658);
+  }
+  body main section .estudio div div .boots {
+    width: 165px;
+  }
+  body main section .estudio div div .js {
+    width: 130px;
+  }
+  body main section .estudio div div .front {
+    width: 180px;
+    padding-top: 28px;
+  }
+  body main section .estudio div div div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  body main section .estudio div div div .btn {
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+  }
+  body main h1, body main h2, body main h3 {
+    font-family: 'EB Garamond', serif;
+    text-align: center;
+    color: #ffee00;
+  }
+  body footer {
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.904);
+    height: 30vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  body footer div.texto {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-line-pack: start;
+        align-content: flex-start;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    padding-top: 20px;
+  }
+  body footer div.texto p {
+    width: 40vw;
+    color: #aaaaaa;
+    padding-left: 25px;
+  }
+  body footer div.info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding-top: 20px;
+  }
+  body footer div.info a {
+    margin-left: 50px;
+    font-size: 150%;
+    color: whitesmoke;
+    text-decoration: none;
+  }
+  body footer div.info a:hover {
+    color: #ffee00;
+  }
 }
 /*# sourceMappingURL=index.css.map */

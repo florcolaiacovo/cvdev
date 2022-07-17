@@ -1,0 +1,200 @@
+//Móviles en horizontal o tablets en vertical
+@media all and (max-width: 480px){ 
+    body{
+        background: radial-gradient(rgba(0, 0, 0, 0.74), rgba(0, 0, 0, 0.63)), url(../elementos/fondo.jpg);
+        background-size:cover;
+        width: 100vw;
+        height: 113vh;
+        background-repeat: no-repeat;
+    
+    .nav{
+        position: fixed;
+        z-index: 1;
+        display: flex;
+        justify-items:end;
+        width: 100vw;
+        background-color: rgba(0, 0, 0, 0.336);
+        top:0px;
+        .contacto{
+            padding-right: 5vh;
+        }
+        a{
+            color: azure;
+            
+        }
+        a:hover{
+            color: rgb(190, 8, 190);
+        }
+    
+    }
+    main{
+        margin-top: 10vh;
+    #carouselExampleControls{
+        height: 90vh;
+        width: 99vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 20vh;
+        div{
+            width: 70vw;
+                div{
+                    div.cajaFoto{
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    align-items: center;
+                    padding-top: 10px;
+                    .foto-cv{
+                        width: 60vw ;
+                    }
+                        svg.people{
+                            width: 30%;
+                            path{
+                                fill: whitesmoke
+                            }
+                        }
+                    }
+                    .iconos{
+                        display: flex;
+                        justify-content: space-around;
+                        svg.icon{
+                            width: 20%;
+                            padding-top: 10px;
+                            path{
+                                fill:whitesmoke;
+                            }
+                        }
+                        svg.icon2{
+                            width: 25%;
+                            padding-top: 10px;
+                            path{
+                                fill:whitesmoke;
+                            }
+                        }
+                    }
+            }
+        }
+    }
+    #carouselExampleIndicators{
+        height: 95vh;
+        width: 99vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 20vh;
+        .carousel-control-next{
+            top: 100px !important;
+        }
+        div{
+            width: 70vw;
+              
+                div{
+                    .celular{
+                        display: flex;
+                        flex-direction: row;
+                        height:75vh;
+                        div.texto{
+                            display: flex;
+                            flex-direction: column;
+                            height: 75vh;
+                            justify-content: flex-start;
+                            margin-right: 5vh;
+                            .h2_portfolio{
+                                color: rgb(190, 8, 190);
+                            }
+                        }
+                    }
+                    section{
+                    height: 70vh;
+                    display: flex;
+                    padding-top: 10vh;
+                    flex-direction: column;
+                    justify-content: space-around;
+                    
+                    .h2_portfolio{
+                        color: rgb(190, 8, 190);
+                        margin-top: 1vh;
+                        font-size: 200%;
+                    }
+                    .h3_portfolio{
+                        color: rgb(190, 8, 190);
+                        margin-bottom: 0.5vh;
+                        font-size: 150%;
+                    }
+                    p{
+                        font-size: 100%;
+                        text-align: center;
+                    }
+                    div{
+                        display: flex;
+                        justify-content: center;
+                        align-content: flex-start;
+                        .fitness, .videoEscritorio{
+                            width: 60vw;
+                        }
+                        .videoCelu{
+                            height: 75vh;
+                        }
+                    }
+
+                    .p-escritorio{
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+    
+    section#educacion{
+        display: none;
+    }
+    
+    h1, h2, h3{
+        font-family: 'EB Garamond', serif;
+        text-align: center;
+        color: rgb(255, 238, 0);
+        font-size: 130%;
+    }
+    
+    }
+    footer{
+        width: 100vw;
+        background-color: rgba(0, 0, 0, 0.904);
+        height: 280px;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        div.texto{
+            display: flex;
+            align-content: flex-start;
+            flex-direction: column;
+            justify-content: flex-start;
+            padding-top: 20px;
+            p{
+                width: 95vw;
+                color: rgb(170, 170, 170);
+                padding-left: 25px;
+            }
+        }
+        div.info{display: flex;
+            flex-direction: column;
+            padding-top: 20px;
+            margin-bottom: 15px;
+        
+            a{  
+                margin-left: 50px;
+                font-size: 150%;
+                color: whitesmoke;
+                text-decoration: none;
+                text-align: end;
+                padding-right: 20px;
+            }
+            a:hover{
+                color: rgb(255, 238, 0);
+            }
+        }
+    }
+    }
+    
+}

@@ -1,7 +1,12 @@
+@import 'celular';
+
 *{
     margin: 0px;
     padding: 0px;
 }
+
+//ESCRITORIO NORMAL
+@media (min-width: 1024px) { 
 body{
     background: radial-gradient(rgba(0, 0, 0, 0.74), rgba(0, 0, 0, 0.63)), url(../elementos/fondo.jpg);
     background-size:cover;
@@ -47,6 +52,9 @@ main{
                 justify-content: center;
                 align-items: center;
                 padding-top: 10px;
+                .foto-cv{
+                    width: 50%;
+                }
                     svg.people{
                         width: 200px;
                         path{
@@ -118,7 +126,6 @@ main{
                 }
                 .h3_portfolio{
                     color: rgb(190, 8, 190);
-                    margin-bottom: 5vh;
                     font-size: 250%;
                 }
                 p{
@@ -131,10 +138,14 @@ main{
                     align-content: flex-start;
                     .fitness, .videoEscritorio{
                         width: 40vw;
+                        align-self: flex-start;
                     }
                     .videoCelu{
                         height: 75vh;
                     }
+                }
+                .p-celu{
+                    display: none;
                 }
             }
         }
@@ -229,5 +240,6 @@ footer{
             color: rgb(255, 238, 0);
         }
     }
+}
 }
 }
