@@ -13,6 +13,9 @@ body{
     width: 100vw;
     height: 113vh;
     background-repeat: no-repeat;
+#p-celu{
+    display: none;
+}
 
 .nav{
     position: fixed;
@@ -25,6 +28,7 @@ body{
     .contacto{
         padding-right: 5vh;
     }
+    
     a{
         color: azure;
         

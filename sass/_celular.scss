@@ -1,36 +1,49 @@
 //Móviles en horizontal o tablets en vertical
 @media all and (max-width: 480px){ 
     body{
-        background: radial-gradient(rgba(0, 0, 0, 0.74), rgba(0, 0, 0, 0.63)), url(../elementos/fondo.jpg);
+        background: radial-gradient(rgba(0, 0, 0, 0.74), rgba(0, 0, 0, 0.63)), url(../elementos/fondocelu.jpg);
         background-size:cover;
         width: 100vw;
         height: 113vh;
         background-repeat: no-repeat;
-    
-    .nav{
+    .p-escritorio{
+        display: none !important;
+    }
+    nav#p-celu{
         position: fixed;
-        z-index: 1;
+        z-index: 5;
         display: flex;
         justify-items:end;
         width: 100vw;
         background-color: rgba(0, 0, 0, 0.336);
         top:0px;
-        .contacto{
-            padding-right: 5vh;
-        }
         a{
-            color: azure;
-            
+            i{
+                width: 15px;
+            }
         }
-        a:hover{
-            color: rgb(190, 8, 190);
+        button{
+            background-color: beige;
+            span.navbar-toggler-icon{
+                color: black !important;
+            }
         }
+        ul{
+            height: 20vh;
+        
+        a{
+            color: whitesmoke;
+        }
+        .item1{
+            height: 3vh;
     
+        }
+    }
     }
     main{
         margin-top: 10vh;
     #carouselExampleControls{
-        height: 90vh;
+        height: 80vh;
         width: 99vw;
         display: flex;
         align-items: center;
@@ -38,6 +51,9 @@
         margin-bottom: 20vh;
         div{
             width: 70vw;
+                button{
+                    z-index: -1;
+                }
                 div{
                     div.cajaFoto{
                     display: flex;
@@ -77,12 +93,15 @@
         }
     }
     #carouselExampleIndicators{
+        padding-top: 25vh;
+        margin-top: 15vh;
         height: 95vh;
         width: 99vw;
         display: flex;
         align-items: center;
         justify-content: center;
         margin-bottom: 20vh;
+        padding-bottom: 20vh;
         .carousel-control-next{
             top: 100px !important;
         }
