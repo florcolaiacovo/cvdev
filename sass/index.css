@@ -131,14 +131,7 @@
     width: 70vw;
   }
   body main #carouselExampleIndicators div div .celular {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    height: 75vh;
+    height: 95vh;
   }
   body main #carouselExampleIndicators div div .celular div.texto {
     display: -webkit-box;
@@ -157,12 +150,15 @@
   body main #carouselExampleIndicators div div .celular div.texto .h2_portfolio {
     color: #be08be;
   }
+  body main #carouselExampleIndicators div div .celular div .videoCelu {
+    height: 45vh;
+  }
   body main #carouselExampleIndicators div div section {
     height: 70vh;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    padding-top: 10vh;
+    padding-top: 25vh;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;

@@ -110,9 +110,7 @@
               
                 div{
                     .celular{
-                        display: flex;
-                        flex-direction: row;
-                        height:75vh;
+                        height:95vh;
                         div.texto{
                             display: flex;
                             flex-direction: column;
@@ -123,11 +121,16 @@
                                 color: rgb(190, 8, 190);
                             }
                         }
+                        div{
+                            .videoCelu{
+                                height: 45vh;
+                            }
+                        }
                     }
                     section{
                     height: 70vh;
                     display: flex;
-                    padding-top: 10vh;
+                    padding-top: 25vh;
                     flex-direction: column;
                     justify-content: space-around;
                     
