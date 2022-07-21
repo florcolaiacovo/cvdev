@@ -24,10 +24,7 @@
     width: 15px;
   }
   body nav#p-celu button {
-    background-color: beige;
-  }
-  body nav#p-celu button span.navbar-toggler-icon {
-    color: black !important;
+    background-color: rgba(245, 245, 220, 0.301);
   }
   body nav#p-celu ul {
     height: 20vh;
