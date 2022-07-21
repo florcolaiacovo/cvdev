@@ -168,9 +168,69 @@
         }
     }
     
-    section#educacion{
+    section.educacion-escritorio{
         display: none;
     }
+    h3.titulo-educacion{
+        font-size: 300%;
+        color: rgb(192, 23, 192);
+        padding-top: 10vh;
+        padding-bottom: 5vh;
+        }
+    .educacion-celu{
+        display: flex;
+        flex-direction: column;
+        .educacion__celu--1{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-left: 7vw;
+            padding-right: 7vw;
+            padding-bottom: 5vh;
+            svg.icono-celu{
+                width: 40vw;
+                path{
+                    fill: rgba(63, 54, 63, 0.658);
+                }
+            }
+            svg.icono-celujs{
+                width: 30vw;
+                path{
+                    fill: rgba(63, 54, 63, 0.658);
+                }
+            }
+            h3{
+                color: rgb(190, 8, 190);
+                padding-top: 2vh;
+                padding-bottom: 2vh;
+            }
+            .educacion__celu--desarrollo{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                width: 90vw;
+                svg{
+                    width: 20vw;
+                    path{
+                        fill: rgba(63, 54, 63, 0.658);
+                    }
+                }
+                svg.bootstrap{
+                    width: 30vw;
+                    path{
+                        fill: rgba(63, 54, 63, 0.658);;
+                    }
+                }
+            }
+
+        }
+        .educacion__celu--1{
+            display: flex;
+            flex-direction: column;
+        }
+    }
+
+
     
     h1, h2, h3{
         font-family: 'EB Garamond', serif;

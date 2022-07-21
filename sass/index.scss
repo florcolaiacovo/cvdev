@@ -156,16 +156,20 @@ main{
     }
 }
 
+.p-celu{
+    display: none;
+}
+h3.titulo-educacion{
+    font-size: 300%;
+    color: rgb(192, 23, 192);
+    }
 section{
     background:radial-gradient(white, white);
     height: 100vh;
     display: flex;
     align-items: center;
     .estudio{
-          h3{
-            font-size: 300%;
-            color: rgb(192, 23, 192);
-            }
+      
         div{
             opacity: 1.5;
             div{
