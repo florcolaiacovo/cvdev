@@ -2,7 +2,7 @@
   body {
     background: radial-gradient(rgba(0, 0, 0, 0.74), rgba(0, 0, 0, 0.63)), url(../elementos/fondocelu.jpg);
     background-size: cover;
-    width: 100vw;
+    width: 100%;
     height: 113vh;
     background-repeat: no-repeat;
   }
@@ -356,8 +356,8 @@
   body {
     background: radial-gradient(rgba(0, 0, 0, 0.74), rgba(0, 0, 0, 0.63)), url(../elementos/fondo.jpg);
     background-size: cover;
-    width: 100vw;
-    height: 113vh;
+    width: 100%;
+    height: 103vh;
     background-repeat: no-repeat;
   }
   body #p-celu {
@@ -370,7 +370,7 @@
     display: -ms-flexbox;
     display: flex;
     justify-items: end;
-    width: 100vw;
+    width: 100%;
     background-color: rgba(0, 0, 0, 0.336);
     top: 0px;
   }
@@ -451,7 +451,7 @@
   }
   body main #carouselExampleIndicators {
     height: 95vh;
-    width: 99vw;
+    width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -554,6 +554,7 @@
   body main section {
     background: radial-gradient(white, white);
     height: 80vh;
+    width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -616,7 +617,7 @@
     color: #ffee00;
   }
   body footer {
-    width: 100vw;
+    width: 100%;
     background-color: rgba(0, 0, 0, 0.904);
     height: 30vh;
     display: -webkit-box;
