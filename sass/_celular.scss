@@ -1,5 +1,5 @@
 //Móviles en horizontal o tablets en vertical
-@media all and (max-width: 480px){ 
+@media screen and (max-width: 1024px){ 
     body{
         background: radial-gradient(rgba(0, 0, 0, 0.74), rgba(0, 0, 0, 0.63)), url(../elementos/fondocelu.jpg);
         background-size:cover;
@@ -120,7 +120,7 @@
                         }
                         div{
                             .videoCelu{
-                                height: 45vh;
+                                height: 100%;
                             }
                         }
                     }
