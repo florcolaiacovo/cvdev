@@ -1,0 +1,284 @@
+//Móviles en horizontal o tablets en vertical
+@media screen and (max-width: 1024px){ 
+    body{
+        width: 100%;
+        .section1{ 
+            padding-top: 10vh;
+            background: radial-gradient(rgba(0, 0, 0, 0.74), rgba(0, 0, 0, 0.63)), url(../elementos/fondocelu.jpg);
+            background-attachment: fixed;
+            background-size: cover;
+            width: 100%;
+            height: 100vh;
+            background-repeat: no-repeat;
+        }
+    .p-escritorio{
+        display: none !important;
+    }
+    nav#p-celu{
+        position: fixed;
+        z-index: 5;
+        display: flex;
+        justify-items:end;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.336);
+        top:0px;
+        a{
+            i{
+                width: 15px;
+            }
+        }
+        button{
+            background-color: rgba(245, 245, 220, 0.301);
+        }
+        ul{
+            height: 20vh;
+        
+        a{
+            color: whitesmoke;
+        }
+        .item1{
+            height: 3vh;
+    
+        }
+    }
+    }
+    main{
+        width: 100%;
+    #carouselExampleControls{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 20vh;
+        div{
+            width: 70vw;
+                button{
+                    z-index: -1;
+                }
+                div{
+
+                    div.cajaFoto{
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    align-items: center;
+                    .foto-cv{
+                        width: 60vw ;
+                    }
+                        svg.people{
+                            width: 30%;
+                            path{
+                                fill: whitesmoke
+                            }
+                        }
+                    }
+                    .iconos{
+                        display: flex;
+                        justify-content: space-around;
+                        svg.icon{
+                            width: 20%;
+                            padding-top: 10px;
+                            path{
+                                fill:whitesmoke;
+                            }
+                        }
+                        svg.icon2{
+                            width: 25%;
+                            padding-top: 10px;
+                            path{
+                                fill:whitesmoke;
+                            }
+                        }
+                    }
+            }
+        }
+    }
+    #carouselExampleIndicators{
+  
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 20vh;
+        padding-bottom: 20vh;
+        .carousel-control-next{
+            top: 100px !important;
+        }
+        div{
+            width: 70vw;
+              
+                div{
+                    .celular{
+                        height:95vh;
+                        div.texto{
+                            display: flex;
+                            flex-direction: column;
+                            height: 75vh;
+                            justify-content: flex-start;
+                            margin-right: 5vh;
+                            .h2_portfolio{
+                                color: rgb(190, 8, 190);
+                            }
+                        }
+                        div{
+                            .videoCelu{
+                                height: 50%;
+                            }
+                        }
+                    }
+                    section{
+                    height: 50vh;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-around;
+                    
+                    .h2_portfolio{
+                        color: rgb(190, 8, 190);
+                        margin-top: 1vh;
+                        font-size: 200%;
+                    }
+                    .h3_portfolio{
+                        color: rgb(190, 8, 190);
+                        margin-bottom: 0.5vh;
+                        font-size: 150%;
+                    }
+                    p{
+                        margin-bottom: 0px;
+                        font-size: 100%;
+                        text-align: center;
+                    }
+                    div{
+                        display: flex;
+                        justify-content: center;
+                        align-content: flex-start;
+                        .fitness, .videoEscritorio{
+                            width: 60vw;
+                        }
+                        .videoCelu{
+                            height: 75vh;
+                        }
+                    }
+
+                    .p-escritorio{
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+    
+    section.educacion-escritorio{
+        display: none;
+    }
+    h3.titulo-educacion{
+        font-size: 300%;
+        color: rgb(192, 23, 192);
+        padding-top: 10vh;
+        padding-bottom: 5vh;
+        }
+    .educacion-celu{
+        display: flex;
+        flex-direction: column;
+        .educacion__celu--1{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-left: 7vw;
+            padding-right: 7vw;
+            padding-bottom: 5vh;
+            img.titulo-frontend{
+                width: 80vw;
+            }
+            svg.icono-celu{
+                width: 40vw;
+                path{
+                    fill: rgba(63, 54, 63, 0.658);
+                }
+            }
+            svg.icono-celujs{
+                width: 30vw;
+                path{
+                    fill: rgba(63, 54, 63, 0.658);
+                }
+            }
+            h3{
+                color: rgb(190, 8, 190);
+                padding-top: 2vh;
+                padding-bottom: 2vh;
+            }
+            .educacion__celu--desarrollo{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                width: 90vw;
+                svg{
+                    width: 20vw;
+                    path{
+                        fill: rgba(63, 54, 63, 0.658);
+                    }
+                }
+                svg.bootstrap{
+                    width: 30vw;
+                    path{
+                        fill: rgba(63, 54, 63, 0.658);;
+                    }
+                }
+            }
+
+        }
+        .educacion__celu--1{
+            display: flex;
+            flex-direction: column;
+        }
+    }
+
+
+    
+    h1, h2, h3{
+        font-family: 'EB Garamond', serif;
+        text-align: center;
+        color: rgb(255, 238, 0);
+        font-size: 130%;
+    }
+    
+    }
+    footer{
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.904);
+        height: 280px;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        div.texto{
+            display: flex;
+            align-content: flex-start;
+            flex-direction: column;
+            justify-content: flex-start;
+            padding-top: 20px;
+            p{
+                width: 95vw;
+                color: rgb(170, 170, 170);
+                padding-left: 25px;
+            }
+        }
+        div.info{display: flex;
+            flex-direction: column;
+            padding-top: 20px;
+            margin-bottom: 15px;
+        
+            a{  
+                margin-left: 50px;
+                font-size: 150%;
+                color: whitesmoke;
+                text-decoration: none;
+                text-align: end;
+                padding-right: 20px;
+            }
+            a:hover{
+                color: rgb(255, 238, 0);
+            }
+        }
+    }
+    }
+    
+}

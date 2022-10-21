@@ -1,0 +1,507 @@
+@media screen and (max-width: 1024px) {
+  body {
+    width: 100%;
+  }
+  body .section1 {
+    padding-top: 10vh;
+    background: radial-gradient(rgba(0, 0, 0, 0.74), rgba(0, 0, 0, 0.63)), url(../elementos/fondocelu.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+  }
+  body .p-escritorio {
+    display: none !important;
+  }
+  body nav#p-celu {
+    position: fixed;
+    z-index: 5;
+    display: flex;
+    justify-items: end;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.336);
+    top: 0px;
+  }
+  body nav#p-celu a i {
+    width: 15px;
+  }
+  body nav#p-celu button {
+    background-color: rgba(245, 245, 220, 0.301);
+  }
+  body nav#p-celu ul {
+    height: 20vh;
+  }
+  body nav#p-celu ul a {
+    color: whitesmoke;
+  }
+  body nav#p-celu ul .item1 {
+    height: 3vh;
+  }
+  body main {
+    width: 100%;
+  }
+  body main #carouselExampleControls {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20vh;
+  }
+  body main #carouselExampleControls div {
+    width: 70vw;
+  }
+  body main #carouselExampleControls div button {
+    z-index: -1;
+  }
+  body main #carouselExampleControls div div div.cajaFoto {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  body main #carouselExampleControls div div div.cajaFoto .foto-cv {
+    width: 60vw;
+  }
+  body main #carouselExampleControls div div div.cajaFoto svg.people {
+    width: 30%;
+  }
+  body main #carouselExampleControls div div div.cajaFoto svg.people path {
+    fill: whitesmoke;
+  }
+  body main #carouselExampleControls div div .iconos {
+    display: flex;
+    justify-content: space-around;
+  }
+  body main #carouselExampleControls div div .iconos svg.icon {
+    width: 20%;
+    padding-top: 10px;
+  }
+  body main #carouselExampleControls div div .iconos svg.icon path {
+    fill: whitesmoke;
+  }
+  body main #carouselExampleControls div div .iconos svg.icon2 {
+    width: 25%;
+    padding-top: 10px;
+  }
+  body main #carouselExampleControls div div .iconos svg.icon2 path {
+    fill: whitesmoke;
+  }
+  body main #carouselExampleIndicators {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20vh;
+    padding-bottom: 20vh;
+  }
+  body main #carouselExampleIndicators .carousel-control-next {
+    top: 100px !important;
+  }
+  body main #carouselExampleIndicators div {
+    width: 70vw;
+  }
+  body main #carouselExampleIndicators div div .celular {
+    height: 95vh;
+  }
+  body main #carouselExampleIndicators div div .celular div.texto {
+    display: flex;
+    flex-direction: column;
+    height: 75vh;
+    justify-content: flex-start;
+    margin-right: 5vh;
+  }
+  body main #carouselExampleIndicators div div .celular div.texto .h2_portfolio {
+    color: rgb(190, 8, 190);
+  }
+  body main #carouselExampleIndicators div div .celular div .videoCelu {
+    height: 50%;
+  }
+  body main #carouselExampleIndicators div div section {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  body main #carouselExampleIndicators div div section .h2_portfolio {
+    color: rgb(190, 8, 190);
+    margin-top: 1vh;
+    font-size: 200%;
+  }
+  body main #carouselExampleIndicators div div section .h3_portfolio {
+    color: rgb(190, 8, 190);
+    margin-bottom: 0.5vh;
+    font-size: 150%;
+  }
+  body main #carouselExampleIndicators div div section p {
+    margin-bottom: 0px;
+    font-size: 100%;
+    text-align: center;
+  }
+  body main #carouselExampleIndicators div div section div {
+    display: flex;
+    justify-content: center;
+    align-content: flex-start;
+  }
+  body main #carouselExampleIndicators div div section div .fitness, body main #carouselExampleIndicators div div section div .videoEscritorio {
+    width: 60vw;
+  }
+  body main #carouselExampleIndicators div div section div .videoCelu {
+    height: 75vh;
+  }
+  body main #carouselExampleIndicators div div section .p-escritorio {
+    display: none;
+  }
+  body main section.educacion-escritorio {
+    display: none;
+  }
+  body main h3.titulo-educacion {
+    font-size: 300%;
+    color: rgb(192, 23, 192);
+    padding-top: 10vh;
+    padding-bottom: 5vh;
+  }
+  body main .educacion-celu {
+    display: flex;
+    flex-direction: column;
+  }
+  body main .educacion-celu .educacion__celu--1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 7vw;
+    padding-right: 7vw;
+    padding-bottom: 5vh;
+  }
+  body main .educacion-celu .educacion__celu--1 img.titulo-frontend {
+    width: 80vw;
+  }
+  body main .educacion-celu .educacion__celu--1 svg.icono-celu {
+    width: 40vw;
+  }
+  body main .educacion-celu .educacion__celu--1 svg.icono-celu path {
+    fill: rgba(63, 54, 63, 0.658);
+  }
+  body main .educacion-celu .educacion__celu--1 svg.icono-celujs {
+    width: 30vw;
+  }
+  body main .educacion-celu .educacion__celu--1 svg.icono-celujs path {
+    fill: rgba(63, 54, 63, 0.658);
+  }
+  body main .educacion-celu .educacion__celu--1 h3 {
+    color: rgb(190, 8, 190);
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+  }
+  body main .educacion-celu .educacion__celu--1 .educacion__celu--desarrollo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 90vw;
+  }
+  body main .educacion-celu .educacion__celu--1 .educacion__celu--desarrollo svg {
+    width: 20vw;
+  }
+  body main .educacion-celu .educacion__celu--1 .educacion__celu--desarrollo svg path {
+    fill: rgba(63, 54, 63, 0.658);
+  }
+  body main .educacion-celu .educacion__celu--1 .educacion__celu--desarrollo svg.bootstrap {
+    width: 30vw;
+  }
+  body main .educacion-celu .educacion__celu--1 .educacion__celu--desarrollo svg.bootstrap path {
+    fill: rgba(63, 54, 63, 0.658);
+  }
+  body main .educacion-celu .educacion__celu--1 {
+    display: flex;
+    flex-direction: column;
+  }
+  body main h1, body main h2, body main h3 {
+    font-family: "EB Garamond", serif;
+    text-align: center;
+    color: rgb(255, 238, 0);
+    font-size: 130%;
+  }
+  body footer {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.904);
+    height: 280px;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+  }
+  body footer div.texto {
+    display: flex;
+    align-content: flex-start;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 20px;
+  }
+  body footer div.texto p {
+    width: 95vw;
+    color: rgb(170, 170, 170);
+    padding-left: 25px;
+  }
+  body footer div.info {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    margin-bottom: 15px;
+  }
+  body footer div.info a {
+    margin-left: 50px;
+    font-size: 150%;
+    color: whitesmoke;
+    text-decoration: none;
+    text-align: end;
+    padding-right: 20px;
+  }
+  body footer div.info a:hover {
+    color: rgb(255, 238, 0);
+  }
+}
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+@media (min-width: 1024px) {
+  body {
+    width: 100%;
+  }
+  body .section1 {
+    padding-top: 10vh;
+    background: radial-gradient(rgba(0, 0, 0, 0.74), rgba(0, 0, 0, 0.63)), url(../elementos/fondo2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+  }
+  body #p-celu {
+    display: none;
+  }
+  body .nav {
+    position: fixed;
+    z-index: 1;
+    display: flex;
+    justify-items: end;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.336);
+    top: 0px;
+  }
+  body .nav .contacto {
+    padding-right: 5vh;
+  }
+  body .nav a {
+    color: azure;
+  }
+  body .nav a:hover {
+    color: rgb(190, 8, 190);
+  }
+  body main #carouselExampleControls {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20vh;
+  }
+  body main #carouselExampleControls div {
+    width: 50vw;
+  }
+  body main #carouselExampleControls div div div.cajaFoto {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+  }
+  body main #carouselExampleControls div div div.cajaFoto .foto-cv {
+    width: 50%;
+  }
+  body main #carouselExampleControls div div div.cajaFoto svg.people {
+    width: 200px;
+  }
+  body main #carouselExampleControls div div div.cajaFoto svg.people path {
+    fill: whitesmoke;
+  }
+  body main #carouselExampleControls div div .iconos {
+    display: flex;
+    justify-content: space-around;
+  }
+  body main #carouselExampleControls div div .iconos svg.icon {
+    width: 100px;
+    padding-top: 10px;
+  }
+  body main #carouselExampleControls div div .iconos svg.icon path {
+    fill: whitesmoke;
+  }
+  body main #carouselExampleControls div div .iconos svg.icon2 {
+    width: 120px;
+    padding-top: 10px;
+  }
+  body main #carouselExampleControls div div .iconos svg.icon2 path {
+    fill: whitesmoke;
+  }
+  body main #carouselExampleIndicators {
+    height: 95vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20vh;
+  }
+  body main #carouselExampleIndicators .carousel-control-next {
+    top: 100px !important;
+  }
+  body main #carouselExampleIndicators div {
+    margin-top: 10vh;
+    width: 50vw;
+  }
+  body main #carouselExampleIndicators div div .celular {
+    display: flex;
+    flex-direction: row;
+    height: 75vh;
+  }
+  body main #carouselExampleIndicators div div .celular div.texto {
+    display: flex;
+    flex-direction: column;
+    height: 75vh;
+    justify-content: flex-start;
+    margin-right: 5vh;
+  }
+  body main #carouselExampleIndicators div div .celular div.texto .h2_portfolio {
+    color: rgb(190, 8, 190);
+    text-align: center;
+  }
+  body main #carouselExampleIndicators div div .celular div.texto .h3_portfolio {
+    text-align: center;
+  }
+  body main #carouselExampleIndicators div div .celular div.texto p {
+    text-align: center;
+  }
+  body main #carouselExampleIndicators div div section {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+  body main #carouselExampleIndicators div div section .h2_portfolio {
+    color: rgb(190, 8, 190);
+    margin-top: 1vh;
+    font-size: 350%;
+    text-align: center;
+  }
+  body main #carouselExampleIndicators div div section .h3_portfolio {
+    color: rgb(190, 8, 190);
+    font-size: 250%;
+    text-align: center;
+  }
+  body main #carouselExampleIndicators div div section p {
+    margin-bottom: 0px;
+    font-size: 125%;
+    text-align: center;
+  }
+  body main #carouselExampleIndicators div div section div {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  body main #carouselExampleIndicators div div section div .fitness, body main #carouselExampleIndicators div div section div .videoEscritorio {
+    height: 40vh;
+    align-self: flex-start;
+  }
+  body main #carouselExampleIndicators div div section div .videoCelu {
+    height: 75vh;
+  }
+  body main #carouselExampleIndicators div div section .p-celu {
+    display: none;
+  }
+  body main .p-celu {
+    display: none;
+  }
+  body main h3.titulo-educacion {
+    font-size: 300%;
+    color: rgb(192, 23, 192);
+    padding-top: 10vh;
+  }
+  body main section {
+    background: radial-gradient(white, white);
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+  body main section .estudio div {
+    opacity: 1.5;
+  }
+  body main section .estudio div div {
+    display: flex;
+    flex-direction: column;
+  }
+  body main section .estudio div div .icono {
+    width: 150px;
+    align-self: center;
+    padding-top: 15px;
+  }
+  body main section .estudio div div .icono path {
+    fill: rgba(63, 54, 63, 0.658);
+  }
+  body main section .estudio div div .boots {
+    width: 165px;
+  }
+  body main section .estudio div div .js {
+    width: 130px;
+  }
+  body main section .estudio div div .front {
+    width: 180px;
+    padding-top: 28px;
+  }
+  body main section .estudio div div div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  body main section .estudio div div div .btn {
+    align-items: flex-end;
+  }
+  body main h1, body main h2, body main h3 {
+    font-family: "EB Garamond", serif;
+    text-align: center;
+    color: rgb(255, 238, 0);
+  }
+  body footer {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.904);
+    height: 30vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  body footer div.texto {
+    display: flex;
+    align-content: flex-start;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 20px;
+  }
+  body footer div.texto p {
+    width: 40vw;
+    color: rgb(170, 170, 170);
+    padding-right: 35px;
+  }
+  body footer div.info {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+  }
+  body footer div.info a {
+    margin-left: 50px;
+    font-size: 150%;
+    color: whitesmoke;
+    text-decoration: none;
+  }
+  body footer div.info a:hover {
+    color: rgb(255, 238, 0);
+  }
+}/*# sourceMappingURL=index.css.map */
